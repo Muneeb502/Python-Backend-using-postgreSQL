@@ -30,7 +30,7 @@ def show_task():
 
 @app.route("/m")
 def add_tasks():
-    sample_tasks = [
+    SAMP_TASK = [
         {"title": "Learn Flask", "course": "Web Development", "fee": False},
         {"title": "Learn SQLAlchemy", "course": "Database Management", "fee": True},
         {"title": "Learn PostgreSQL", "course": "Database Management", "fee": False}
